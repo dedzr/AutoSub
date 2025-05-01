@@ -22,11 +22,11 @@ const storage = multer.diskStorage({
 });
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8080;
 const upload = multer({
     storage,
     limits: {
-        fileSize: 100 * 1024 * 1024, // 100 MB max
+        fileSize: 10 * 1024 * 1024, // 100 MB max
     },
 });
 app.use(morgan("dev"));
