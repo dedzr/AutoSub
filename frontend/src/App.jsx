@@ -5,7 +5,7 @@ import Header from "./components/Header";
 
 import GlobalStyle from "./styles/GlobalStyle";
 import "react-toastify/dist/ReactToastify.css";
-import FileUpload from "./components/FIleUpload";
+import FileUpload from "./components/FileUpload";
 
 const App = () => {
     return (

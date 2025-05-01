@@ -4,7 +4,7 @@ import { useDropzone } from "react-dropzone";
 import styled, { keyframes } from "styled-components";
 import { toast } from "react-toastify";
 import Dropzone from "./Dropzone";
-import FileList from "./Filelist";
+import FileList from "./FileList";
 import ActionButton from "./ActionButton";
 import LoadingSpinner from "./Loader";
 import DownloadButton from "./DownloadButton";
